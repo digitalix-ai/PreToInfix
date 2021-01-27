@@ -23,6 +23,6 @@ def isOperator(c):
 
 # Driver code
 if __name__=="__main__":
-	str = input('\nWrite your prefix expression here: ') #"*-A/BC-/AKL"
+	str = input('\nWrite your prefix expression here: ')
 	print('\nHere is step by step transformation of your expression into infix notation: \n')
 	print(f'\n{prefixToInfix(str)}\n')
